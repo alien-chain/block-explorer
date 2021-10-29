@@ -1,0 +1,9 @@
+{
+  "maintainer": {
+    "name": "Alien.Blue",
+    "url": "https://alien.blue"
+  },
+  "github": {
+    "reportIssue": "https://github.com/CosmosContracts/junoscan/issues"
+  }
+}

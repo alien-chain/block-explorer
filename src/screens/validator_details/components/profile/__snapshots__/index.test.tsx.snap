@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screen: ValidatorDetails/Profile matches snapshot 1`] = `
+<div
+  className=""
+  id="Box"
+>
+  <div
+    className="makeStyles-bio"
+  >
+    <div
+      address="operatorAddress"
+      className="makeStyles-avatar makeStyles-desktopAvatar"
+      id="Avatar"
+      imageUrl=""
+    />
+    <div>
+      <div
+        className="bio__header"
+      >
+        <div
+          className="makeStyles-header"
+        >
+          <div
+            address="operatorAddress"
+            className="makeStyles-avatar makeStyles-mobile"
+            id="Avatar"
+            imageUrl=""
+          />
+          <div
+            className="header__content"
+          >
+            <h2
+              className="MuiTypography-root MuiTypography-h2"
+            >
+              moniker
+            </h2>
+            <div
+              className="makeStyles-tag"
+              id="Tag"
+              theme="one"
+              value="validators:active"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="bio__content"
+      >
+        <div
+          id="Markdown"
+        >
+          description
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr
+    className="MuiDivider-root makeStyles-divider"
+  />
+  <div>
+    <div
+      className="makeStyles-item"
+    >
+      <h4
+        className="MuiTypography-root label MuiTypography-h4"
+      >
+        validators:website
+      </h4>
+      <a
+        className="MuiTypography-root value MuiTypography-body1"
+        href="//"
+        rel="noreferrer"
+        target="_blank"
+      >
+        
+      </a>
+    </div>
+    <div
+      className="makeStyles-item"
+    >
+      <h4
+        className="MuiTypography-root label MuiTypography-h4"
+      >
+        validators:commission
+      </h4>
+      <p
+        className="MuiTypography-root value MuiTypography-body1"
+      >
+        1000.00%
+      </p>
+    </div>
+    <div
+      className="makeStyles-item"
+    >
+      <h4
+        className="MuiTypography-root label condition MuiTypography-h4"
+      >
+        validators:condition
+        <div
+          content={<ConditionExplanation />}
+          id="InfoPopover"
+        />
+      </h4>
+      <div
+        className="condition__body"
+      >
+        <div
+          content={
+            <React.Fragment>
+              <WithStyles(ForwardRef(Typography))
+                variant="body1"
+              >
+                validators:missedBlockCounter
+              </WithStyles(ForwardRef(Typography))>
+              <WithStyles(ForwardRef(Typography))
+                variant="body1"
+              >
+                validators:signedBlockWindow
+              </WithStyles(ForwardRef(Typography))>
+            </React.Fragment>
+          }
+          display={
+            <WithStyles(ForwardRef(Typography))
+              className="value bad"
+              variant="body1"
+            >
+              validators:bad
+            </WithStyles(ForwardRef(Typography))>
+          }
+          id="InfoPopover"
+        />
+      </div>
+    </div>
+    <div
+      className="makeStyles-item"
+    >
+      <h4
+        className="MuiTypography-root label MuiTypography-h4"
+      >
+        validators:lastSeen
+      </h4>
+      <p
+        className="MuiTypography-root value MuiTypography-body1"
+      >
+        validators:na
+      </p>
+    </div>
+  </div>
+</div>
+`;
